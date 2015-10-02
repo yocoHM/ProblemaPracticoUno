@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D625AF281BBCBE390034F661 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D625AF221BBCBE390034F661 /* main.cpp */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D625AEFD1BBCBB590034F661 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D625AEFF1BBCBB590034F661 /* Arboles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arboles; sourceTree = BUILT_PRODUCTS_DIR; };
+		D625AF191BBCBE390034F661 /* ArbolBinario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArbolBinario.h; sourceTree = "<group>"; };
+		D625AF1A1BBCBE390034F661 /* ArbolBinarioBusqueda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArbolBinarioBusqueda.h; sourceTree = "<group>"; };
+		D625AF1B1BBCBE390034F661 /* ArbolAVL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArbolAVL.h; sourceTree = "<group>"; };
+		D625AF1C1BBCBE390034F661 /* BinarySTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySTree.h; sourceTree = "<group>"; };
+		D625AF1D1BBCBE390034F661 /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		D625AF1E1BBCBE390034F661 /* NodoB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodoB.h; sourceTree = "<group>"; };
+		D625AF221BBCBE390034F661 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D625AF231BBCBE390034F661 /* NodoRB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodoRB.h; sourceTree = "<group>"; };
+		D625AF251BBCBE390034F661 /* Rojinegro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rojinegro.h; sourceTree = "<group>"; };
+		D6C04A601BBE0BB400F55AC2 /* ArbolB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArbolB.h; sourceTree = "<group>"; };
+		D6C04A611BBE0BB400F55AC2 /* NodoArbolB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodoArbolB.h; sourceTree = "<group>"; };
+		D6C04A7A1BBE45A800F55AC2 /* NodoDosTres.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodoDosTres.h; sourceTree = "<group>"; };
+		D6C04A7B1BBE45A800F55AC2 /* ArbolDosTres.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArbolDosTres.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D625AEFC1BBCBB590034F661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D625AEF61BBCBB590034F661 = {
+			isa = PBXGroup;
+			children = (
+				D625AF011BBCBB590034F661 /* Arboles */,
+				D625AF001BBCBB590034F661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D625AF001BBCBB590034F661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D625AEFF1BBCBB590034F661 /* Arboles */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D625AF011BBCBB590034F661 /* Arboles */ = {
+			isa = PBXGroup;
+			children = (
+				D625AF2D1BBCC4540034F661 /* Rojinegro */,
+				D625AF2C1BBCC2480034F661 /* DosTres */,
+				D625AF2A1BBCC0AD0034F661 /* B-Tree */,
+				D625AF291BBCBF1F0034F661 /* AVL */,
+				D625AF221BBCBE390034F661 /* main.cpp */,
+			);
+			path = Arboles;
+			sourceTree = "<group>";
+		};
+		D625AF291BBCBF1F0034F661 /* AVL */ = {
+			isa = PBXGroup;
+			children = (
+				D625AF1E1BBCBE390034F661 /* NodoB.h */,
+				D625AF1D1BBCBE390034F661 /* BinaryTree.h */,
+				D625AF1C1BBCBE390034F661 /* BinarySTree.h */,
+				D625AF1B1BBCBE390034F661 /* ArbolAVL.h */,
+			);
+			name = AVL;
+			sourceTree = "<group>";
+		};
+		D625AF2A1BBCC0AD0034F661 /* B-Tree */ = {
+			isa = PBXGroup;
+			children = (
+				D6C04A601BBE0BB400F55AC2 /* ArbolB.h */,
+				D6C04A611BBE0BB400F55AC2 /* NodoArbolB.h */,
+			);
+			name = "B-Tree";
+			sourceTree = "<group>";
+		};
+		D625AF2C1BBCC2480034F661 /* DosTres */ = {
+			isa = PBXGroup;
+			children = (
+				D6C04A7A1BBE45A800F55AC2 /* NodoDosTres.h */,
+				D6C04A7B1BBE45A800F55AC2 /* ArbolDosTres.h */,
+			);
+			name = DosTres;
+			sourceTree = "<group>";
+		};
+		D625AF2D1BBCC4540034F661 /* Rojinegro */ = {
+			isa = PBXGroup;
+			children = (
+				D625AF231BBCBE390034F661 /* NodoRB.h */,
+				D625AF191BBCBE390034F661 /* ArbolBinario.h */,
+				D625AF1A1BBCBE390034F661 /* ArbolBinarioBusqueda.h */,
+				D625AF251BBCBE390034F661 /* Rojinegro.h */,
+			);
+			name = Rojinegro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D625AEFE1BBCBB590034F661 /* Arboles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D625AF061BBCBB590034F661 /* Build configuration list for PBXNativeTarget "Arboles" */;
+			buildPhases = (
+				D625AEFB1BBCBB590034F661 /* Sources */,
+				D625AEFC1BBCBB590034F661 /* Frameworks */,
+				D625AEFD1BBCBB590034F661 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arboles;
+			productName = Arboles;
+			productReference = D625AEFF1BBCBB590034F661 /* Arboles */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D625AEF71BBCBB590034F661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Yoco;
+				TargetAttributes = {
+					D625AEFE1BBCBB590034F661 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = D625AEFA1BBCBB590034F661 /* Build configuration list for PBXProject "Arboles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D625AEF61BBCBB590034F661;
+			productRefGroup = D625AF001BBCBB590034F661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D625AEFE1BBCBB590034F661 /* Arboles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D625AEFB1BBCBB590034F661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D625AF281BBCBE390034F661 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D625AF041BBCBB590034F661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D625AF051BBCBB590034F661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D625AF071BBCBB590034F661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D625AF081BBCBB590034F661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D625AEFA1BBCBB590034F661 /* Build configuration list for PBXProject "Arboles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D625AF041BBCBB590034F661 /* Debug */,
+				D625AF051BBCBB590034F661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D625AF061BBCBB590034F661 /* Build configuration list for PBXNativeTarget "Arboles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D625AF071BBCBB590034F661 /* Debug */,
+				D625AF081BBCBB590034F661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D625AEF71BBCBB590034F661 /* Project object */;
+}
